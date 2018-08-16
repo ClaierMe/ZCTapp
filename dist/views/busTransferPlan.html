@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta content="telephone=no" name="format-detection"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="author" content="通卡联城网络科技有限公司"><meta name="keywords" content="通卡联城"><meta name="description" content="通卡联城"><title>公交换乘方案</title><script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script><link rel="stylesheet" href="../css/index.css"><link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css"><link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><link rel="stylesheet" href="../css/busTransferPlan.css"></head><body><div class="contain"><p class="tip">为您找到以下结果：</p><div id="allPlan"></div></div><script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script><script src="../libs/tripledes.js"></script><script src="../libs/mode-ecb-min.js"></script><script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><script src="../js/common.js"></script><script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script><script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script><script>//var jsontmp = {"error":0,"type":2,"plan":["第1方案:(预计到达时间11:39:51)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行1383米 ","第2方案:(预计到达时间11:45:00)步行631米 从富华酒店站,乘k13路(小榄(城区客运中心)方向),经过3站,到小榄大信站 步行536米 ","第3方案:(预计到达时间11:39:50)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行291米 从小榄车站,乘301路(东锐工业区方向),经过2站,到升平中路站 步行122米 ","第4方案:(预计到达时间11:39:31)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过5站,到城轨小榄站路口站 同站换乘 从城轨小榄站路口站,乘506路(小榄人民医院方向),经过6站,到升平中路站 步行127米 ","第5方案:(预计到达时间11:40:34)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行281米 从小榄车站,乘518路(广福路方向),经过2站,到升平中路站 步行159米 "]};
+        var plan = $.parseJSON(sessionStorage.plan);
+        for(var i=0;i<plan.length;i++){
+            var para = document.createElement("p");
+            var node = document.createTextNode(plan[i]);
+            para.appendChild(node);
+            document.getElementById("allPlan").appendChild(para);
+        }</script></body><!-- <script>
+    var jsontmp = {"error":0,"type":2,"plan":["第1方案:(预计到达时间11:39:51)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行1383米 ","第2方案:(预计到达时间11:45:00)步行631米 从富华酒店站,乘k13路(小榄(城区客运中心)方向),经过3站,到小榄大信站 步行536米 ","第3方案:(预计到达时间11:39:50)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行291米 从小榄车站,乘301路(东锐工业区方向),经过2站,到升平中路站 步行122米 ","第4方案:(预计到达时间11:39:31)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过5站,到城轨小榄站路口站 同站换乘 从城轨小榄站路口站,乘506路(小榄人民医院方向),经过6站,到升平中路站 步行127米 ","第5方案:(预计到达时间11:40:34)步行644米 从富华酒店a1站,乘k12路(东凤人民医院方向),经过6站,到小榄车站 步行281米 从小榄车站,乘518路(广福路方向),经过2站,到升平中路站 步行159米 "]};
+    var plan = jsontmp.plan;
+    for(var i=0;i<plan.length;i++){
+        var para = document.createElement("p");
+        var node = document.createTextNode(plan[i]);
+        para.appendChild(node);
+        document.getElementById("allPlan").appendChild(para);
+    }
+</script> --></html>

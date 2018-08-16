@@ -1,0 +1,85 @@
+*{
+    font-family: PingFangSC-Regular;
+}
+
+.cardBind{
+    padding: 0.1rem 0.467rem;
+}
+
+.card_input{
+    font-size: 16px;
+    border-bottom: 1px solid #ebebeb;
+    height: 1.467rem;
+    display: flex; 
+    flex-flow: row;
+    align-items:center;
+}
+
+.cardImputImg{
+    width: 0.8rem;
+    height: 1.467rem;
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.card_input img{
+    max-width: 0.597rem;
+    max-height: 0.403rem;
+}
+
+.cardNumber{
+    width:8.27rem;
+}
+
+input {
+    border:0px;
+    font-size: 16px;
+}
+
+.card_img{
+    margin:.3rem .5rem 0rem .5rem;
+    text-align: center;
+}
+
+.card_img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cue_title{
+    text-align: center;
+    font-size: 16px;
+}
+
+.cue_content p{
+    margin-top: .3rem;
+}
+
+.submit{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #92CDF2;
+    width: 8.4rem;
+    height: 1.28rem;
+    border-radius: 1.28rem;
+    margin: 0.26rem 0rem;
+}
+
+.btnNext{
+    text-align: center;
+}
+
+.cardPos{
+    margin-left: 6.453rem;
+    color: #00A0E9;
+    font-size: 16px;
+}
+
+.cue_content div{
+    display: flex; 
+    flex-flow: row;
+}
+
+.cue_content div p {
+    font-size: 14px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="author" content="通卡联城网络科技有限公司">
+    <meta name="keywords" content="通卡联城" />
+    <meta name="description" content="通卡联城" />
+    <title>公交换乘</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="../css/busTransfer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <div class="transfer">
+        <div class="onep"></div><input type="text" id="outset" value="起始位置：我的位置" onfocus="if (value =='起始位置：我的位置'){value =''}" onblur="if (value ==''){value='起始位置：我的位置'}" oninput="getDestination(this)"/>
+        <div class="twop"></div>
+        <div class="threep"></div><hr>
+        <div class="fourp"></div>
+        <div class="fivep"></div><input type="text" id="destination" value="终点位置：" onfocus="if (value =='终点位置：'){value =''}" onblur="if (value ==''){value='终点位置：'}" oninput="getDestination(this)"/>
+    </div>
+    <button class="inquiry"onclick="submitData()" >查询</button>
+    <div id="specficDes">
+    </div>
+    <script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script>
+    <script src="../libs/tripledes.js"></script>
+    <script src="../libs/mode-ecb-min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script> 
+    <script src="../js/busTransfer.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+</body>
+
+</html>

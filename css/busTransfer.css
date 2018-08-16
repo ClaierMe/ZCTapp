@@ -1,0 +1,268 @@
+.transfer{
+    margin: 0.8rem 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid white;
+    border-radius: 0.2667rem;
+    -moz-border-radius: 0.2rem; /* Old Firefox */
+    box-shadow: 0 0 0.2667rem #0079c5; 
+}
+
+.transfer #outset{
+    display: block;
+    width: auto;
+    height: 1.3333rem;
+    color: gray;
+    font-family: PingFangSC-Regular;
+    font-size: 0.5rem;
+    color: #5A6169;
+    text-indent: .3rem;
+    border: none;
+    margin-bottom: .3rem;
+}
+
+.transfer #destination{
+    display: block;
+    width: auto;
+    height: 1.3333rem;
+    color: gray;
+    font-family: PingFangSC-Regular;
+    font-size: 0.5rem;
+    color: #5A6169;
+    text-indent: .3rem;
+    border: none;
+    border-top: none;
+}
+
+.inquiry{
+    position: relative;
+    overflow: hidden;
+    width: 9rem;
+    height: 1.4667rem;
+    left: 0.5rem;
+    color: white;
+    font-size: 0.5rem; 
+    font-family: PingFangSC-Regular;
+    letter-spacing: 0.3rem;
+    background-color: #0079c5;
+    border: none;
+    border-radius: 100px;
+}
+
+/*
+//波浪形点击效果
+.inquiry:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .3s, opacity .5s;
+}
+
+.inquiry:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+}
+
+.inquiry a{
+    color: white;
+    font-size: .5rem;
+    display: block;
+}*/
+
+.prompt{
+    font-family: PingFangSC-Regular;
+    font-size: 0.43rem;
+    color: #A2A2A2; 
+    margin: 0.3rem 0.5rem;
+}
+
+.desClass{
+    font-family: PingFangSC-Regular;
+    font-size: 0.4267rem;
+    color: #5A6169;
+    margin: 0.1rem 0.5rem;
+}
+
+.transfer .onep{
+    width: 0.2667rem; 
+    height: 0.2667rem; 
+    float: left; 
+    background-color: #7ede8e; 
+    border-radius: 50%;
+    position: relative; 
+    bottom: -0.6rem;
+}
+
+.transfer .twop{
+    width: 0.1667rem; 
+    height: 0.1667rem; 
+    background-color: #e6e6e6; 
+    border-radius: 50%;
+    position: relative; 
+    bottom: 0.4rem;
+}
+
+.transfer .threep{
+    width: 0.1667rem; 
+    height: 0.1667rem; 
+    background-color: #e6e6e6; 
+    border-radius: 50%;
+    position: relative; 
+    bottom: 0.1rem;
+}
+
+.transfer .fourp{
+    width: 0.1667rem; 
+    height: 0.1667rem; 
+    background-color: #e6e6e6; 
+    border-radius: 50%;
+    position: relative; 
+    bottom: -0.15rem;
+}
+
+.transfer .fivep{
+    width: 0.2667rem; 
+    height: 0.2667rem; 
+    float: left; 
+    background-color: #fa8a74; 
+    border-radius: 50%;
+    position: relative; 
+    bottom: -0.5rem;
+}
+
+.transfer hr{
+    position: relative; 
+    width: 7rem; 
+    bottom: 0.19rem; 
+    left: 0.5rem;
+}
+
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:2){
+    .transfer{
+        margin: 15px 15px;
+        padding: 12.25px 22.5px;
+        border: 1px solid white;
+        border-radius: 20px;
+        /*-moz-border-radius: 0.2rem;  Old Firefox */
+        box-shadow: 0 0 0.2667rem #0079c5; 
+    }
+    
+    .transfer #outset{
+        display: block;
+        width: 300px;
+        height: 56.25px;
+        color: gray;
+        font-family: PingFangSC-Regular;
+        font-size: 21px;
+        color: #5A6169;
+        text-indent: 12.25px;
+        border: none;
+        margin-bottom: 11.25px;
+    }
+    
+    .transfer #destination{
+        display: block;
+        width: 300px;
+        height: 56.25px;
+        color: gray;
+        font-family: PingFangSC-Regular;
+        font-size: 21px;
+        color: #5A6169;
+        text-indent: 12.25px;
+        border: none;
+        border-top: none;
+    }
+    
+    .inquiry{
+        position: relative;
+        overflow: hidden;
+        width: 375px;
+        height: 62.25px;
+        left: 18.75px;
+        color: white;
+        font-size: 22px; 
+        font-family: PingFangSC-Regular;
+        letter-spacing: 11.25px;
+        background-color: #0079c5;
+        border: none;
+        border-radius: 100px;
+    }
+
+    .prompt{
+        font-family: PingFangSC-Regular;
+        font-size: 18px;
+        color: #A2A2A2; 
+        margin: 12.25px 8.25px 2px 10.25px;
+    }
+    
+    .desClass{
+        font-family: PingFangSC-Regular;
+        font-size: 17.5px;
+        color: #5A6169;
+        margin: 6.5px 13.75px;
+    }
+    
+    .transfer .onep{
+        width: 12px; 
+        height: 12px; 
+        float: left; 
+        background-color: #7ede8e; 
+        border-radius: 50%;
+        position: relative; 
+        bottom: -20px;
+    }
+    
+    .transfer .twop{
+        width: 7.5px; 
+        height: 7.5px; 
+        background-color: #e6e6e6; 
+        border-radius: 50%;
+        position: relative; 
+        bottom: 18px;
+    }
+    
+    .transfer .threep{
+        width: 7.5px; 
+        height: 7.5px; 
+        background-color: #e6e6e6; 
+        border-radius: 50%;
+        position: relative; 
+        bottom: 5.5px;
+    }
+    
+    .transfer .fourp{
+        width: 7.5px; 
+        height: 7.5px; 
+        background-color: #e6e6e6; 
+        border-radius: 50%;
+        position: relative; 
+        bottom: -6.25px;
+    }
+    
+    .transfer .fivep{
+        width: 12px; 
+        height: 12px; 
+        float: left; 
+        background-color: #fa8a74; 
+        border-radius: 50%;
+        position: relative; 
+        bottom: -19.5px;
+    }
+    
+    .transfer hr{
+        position: relative; 
+        width: 330px; 
+        bottom: 8.25px; 
+        left: 19.5px;
+    }
+}

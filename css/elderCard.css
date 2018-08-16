@@ -1,0 +1,50 @@
+/* .elderCard a:last-child {
+    border-bottom:1px solid #eee;
+} */
+.content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D9D9D9;
+    height: 2.186667rem /* 164/75 */;
+}
+.icon {
+    width: .88rem /* 66/75 */;
+    height: .88rem /* 66/75 */;
+    margin: .653333rem /* 49/75 */ 0;
+}
+.icon img {
+    width: .88rem /* 66/75 */;
+    height: .88rem /* 66/75 */;
+    margin: auto;
+    text-align: center;
+}
+.text {
+    margin: .493333rem /* 37/75 */ 0 .493333rem .266667rem /* 20/75 */;
+}
+.text-title {
+    font-size: 16px;
+    font-family: "PingFangSC-Regular";
+    color: #505064;
+    height: .6rem /* 45/75 */;
+    line-height: .6rem /* 45/75 */;
+    margin-bottom: .16rem /* 12/75 */;
+}
+.text-desc {
+    font-size: 12px;
+    color: #A2A2A2;
+    height: .44rem /* 33/75 */;
+    line-height: .44rem /* 33/75 */;
+}
+.arrow-right {
+    position: absolute;
+    width: .56rem /* 42/75 */;
+    height: .56rem /* 42/75 */;
+    top: .809333rem /* 60.7/75 */;
+    right: 0;
+    
+}
+.arrow-right img {
+    width: .56rem /* 42/75 */;
+    height: .56rem /* 42/75 */;
+}

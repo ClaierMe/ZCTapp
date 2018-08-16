@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="author" content="通卡联城网络科技有限公司">
+    <meta name="keywords" content="通卡联城" />
+    <meta name="description" content="通卡联城" />
+    <title>中山通充值</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <style>
+        article{
+            margin-top: .6rem;
+        }
+        .recharge-title {
+            line-height: 1rem;
+            text-align: center;
+            color: #5A6169;
+            font-size: 16px;
+        }
+
+        .recharge-content {
+            font-size: 14px;
+            color: #5A6169;
+            line-height: .586667rem;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="progress flex">
+            <div class="ball">
+                <div class="ball-circle ball-circle-active"></div>
+                <p>设定金额</p>
+            </div>
+            <div class="ball">
+                <div class="ball-circle "></div>
+                <p>支付验证</p>
+            </div>
+            <div class="ball">
+                <div class="ball-circle "></div>
+                <p>刷卡</p>
+            </div>
+        </div>
+
+        <div class="money">
+            <h2>选择充值金额</h2>
+            <div class="option">
+                <div class="money-item money-active" data="20">
+                    20 元
+                </div>
+                <div class="money-item" data="30">
+                    30 元
+                </div>
+                <div class="money-item" data="50">
+                    50 元
+                </div>
+                <div class="money-item" data="100">
+                    100 元
+                </div>
+                <div class="money-item" data="200">
+                    200 元
+                </div>
+                <div class="money-item" data="300">
+                    300 元
+                </div>
+            </div>
+
+            <!-- 显示金额 -->
+            <div style="font-size:16px;color: #9E9E9F;">
+                充值金额
+                <input id="money" type="text" value="20" readonly>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button class="submit">下一步</button>
+        </div>
+
+        <article>
+            <h4 class="recharge-title">温馨提示</h4>
+            <p class="recharge-content">
+                中山通APP充值分为两个步骤,第一步您需要通过本APP使用支付宝、微信等方式支付到中山通后台系统;第二步您需要在当天23:00前到广发社区银行自助终端或中山通指定的圈存充值设备进行圈存刷卡充值。 注意:1、自助圈存刷卡充值服务时间为每天5:00至23:00,其他时间不允许圈存。2、若支付当天23:00前仍未进行圈存刷卡充值,充值资金将自动退回您原支付渠道
+            </p>
+        </article>
+    </div>
+    <script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/common.js?v=1.1.7"></script>
+    <script src="../js/index.js?v=1.1.7"></script>
+</body>
+
+</html>

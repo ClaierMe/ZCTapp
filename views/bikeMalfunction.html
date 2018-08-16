@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="author" content="通卡联城网络科技有限公司">
+    <meta name="keywords" content="通卡联城" />
+    <meta name="description" content="通卡联城" />
+    <title>自行车报障</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://static.apitops.com/openSource/mui/mui.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="../css/mui.css">
+    <link rel="stylesheet" href="../css/bikeMalfunction.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <div class="contain">
+        <!-- 头部 -->
+        <div class="malfunctionTip">
+            <!--<input type="text" value="请输入您的宝贵意见或建议。">-->
+            <textarea id="txt0" maxlength="200" onblur="if(this.value=='') this.value='请输入您的宝贵意见或建议。（最多输入200字）';"></textarea>
+            <p><span id="txtNum">0</span>/200</p>
+        </div>
+        <div class="imgUploading">
+            <div class="txt"><span>上传图片</span>（0/4）</div>
+            <div id="moveinput" style="position: absolute;margin-top: 0">
+                <div class="inputcontrol">
+                    <input type="file" id="input1" accept="image*" capture="camera" multiple class="inputstyle">
+                </div>
+            </div>          
+            <div class="picture"></div>
+            <div style="clear:both;"></div>
+        </div>
+
+        <!-- <button onclick="uploadPic()">test</button> -->
+    </div>
+
+    <script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script>
+    <!-- <script src="../libs/tripledes.js"></script>
+    <script src="../libs/mode-ecb-min.js"></script> -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/common.js?v=1.0.5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script> 
+    <script src="https://static.apitops.com/openSource/mui/mui.min.js"></script>
+    <script src="https://static.apitops.com/openSource/mui/mui.zoom.js"></script>
+    <script src="https://static.apitops.com/openSource/mui/mui.previewimage.js"></script>
+    <script src="../js/bikeMalfunction.js?v=1.0.15"></script>
+    <!-- <script src="https://ami-static.b0.upaiyun.com/active2016/base/flexible.js"></script> -->
+    <script>
+        mui.previewImage();
+    </script>
+</body>
+
+</html>

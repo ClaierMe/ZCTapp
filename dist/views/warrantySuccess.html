@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta content="telephone=no" name="format-detection"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="author" content="通卡联城网络科技有限公司"><meta name="keywords" content="通卡联城"><meta name="description" content="通卡联城"><title>报障成功</title><script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></head><body><div class="okIcon" style="font-size: 0.6667rem; padding-top: 4rem;"><img src="../img/ok.png" style="display: block; width: 2.5rem; height: 2.5rem; margin: 0 auto;"><p style="text-align: center; margin-top: 0.2rem;">报障成功</p></div><script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script><script src="../libs/tripledes.js"></script><script src="../libs/mode-ecb-min.js"></script><script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script><script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script><script>$(function(){  
+            pushHistory();  
+
+            //监听安卓物理返回
+            window.addEventListener("popstate", function(e) {  //回调函数中实现需要的功能
+                //window.history.back();
+                //window.location.href = '../views/busTransferPlan.html';
+            }, false);  
+        });  
+        function pushHistory() {  
+            var state = {  
+                title: "title",  
+                url: "../views/warrantySuccess.html"  
+            };  
+            window.history.pushState(state, state.title, state.url);  
+        }</script></body></html>

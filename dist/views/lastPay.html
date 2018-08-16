@@ -1,0 +1,68 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta content="telephone=no" name="format-detection"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="author" content="通卡联城网络科技有限公司"><meta name="keywords" content="通卡联城"><meta name="description" content="通卡联城"><title>确认支付</title><script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script><link rel="stylesheet" href="../css/index.css"><!-- <link rel="stylesheet" href="../css/infoQuery.css"> --></head><style>.cell {
+        margin-top: .6rem;
+        height: 1.8rem;
+    }
+
+    .cell-pay {
+        border-bottom: solid 1px #ddd;
+    }
+
+    .cell img {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 6px;
+        margin-right: .6rem;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 0;
+        width: .566667rem !important;
+        height: .566667rem !important;
+    }
+
+    .last-pay {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: .56rem/* 42/75 */
+        ;
+        box-shadow: 0 2px 20px 0 rgba(0, 121, 197, 0.10);
+        border-radius: 20px;
+        font-size: 14px;
+        color: #A2A2A2;
+    }
+
+    .last-pay-title {
+        height: 1.2rem/* 90/75 */
+        ;
+        line-height: 1.2rem/* 90/75 */
+        ;
+        font-size: 16px;
+        color: #5A6169;
+        text-align: center;
+        border-bottom: 1px solid #D9D9D9;
+    }
+
+    .last-pay-content {
+        padding: .16rem/* 12/75 */
+        .426667rem/* 32/75 */
+        .426667rem;
+    }
+
+    .content-item {
+        line-height: .533333rem/* 40/75 */
+        ;
+        margin-top: .266667rem/* 20/75 */
+        ;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .con-item-left {
+        text-align: left;
+    }
+
+    .con-item-right {
+        text-align: right;
+        color: #5A6169;
+    }</style><body><div class="container"><!-- 头部 --><div class="progress flex"><div class="ball"><div class="ball-circle"></div><p>信息查询</p></div><div class="ball"><div class="ball-circle"></div><p>资料录入</p></div><div class="ball"><div class="ball-circle ball-circle-active"></div><p>确认支付</p></div></div><!-- 确认信息 --><div class="last-pay"><div class="last-pay-title">确认信息</div><div class="last-pay-content"><div class="content-item"><div class="con-item-left">原卡号</div><div class="con-item-right user-id-insert"></div></div><div class="content-item"><div class="con-item-left">姓名</div><div class="con-item-right user-name-insert"></div></div><div class="content-item"><div class="con-item-left">预留电话</div><div class="con-item-right phone-num"></div></div><div class="content-item"><div class="con-item-left">是否邮寄</div><div class="con-item-right need-send"></div></div><div class="content-item"><div class="con-item-left">邮寄地址</div><div class="con-item-right need-send-insert"></div></div><div class="content-item"><div class="con-item-left">支付金额</div><div class="con-item-right all-money-insert"></div><!-- <span>元</span> --></div></div></div><div class="cell-pay cell flex" id="alipay"><img src="../img/zhifubao.png" alt=""><p>支付宝支付</p><img class="arrow-right" src="../img/right.png" alt=""></div></div><script src="https://static.allcitygo.com/sdk/JSsdk1.0.1.js"></script><script src="../libs/tripledes.js"></script><script src="../libs/mode-ecb-min.js"></script><script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><script src="../js/common.js?v=1.0.7"></script><script src="../js/lastPay.js?v=1.0.5"></script></body></html>

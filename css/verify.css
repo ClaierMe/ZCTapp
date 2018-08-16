@@ -1,0 +1,29 @@
+.cell {
+    height: 1.466667rem;
+}
+.cell-pay{
+    border-bottom: solid 1px #ddd;
+}
+.cell img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 6px; 
+    margin-right: .4rem;
+}
+.arrow-right{
+    position: absolute;
+    right: 0;
+    width: .566667rem!important;
+    height: .566667rem!important;
+}
+
+.money-value{
+    color: #5A6169;
+    font-size: 16px;
+}
+
+#money-value{
+    color: #F47447;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
